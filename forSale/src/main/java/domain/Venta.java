@@ -1,4 +1,6 @@
 package domain;
 
-public class Venta {
+public class Venta extends Operacion{
+
+
 }

@@ -1,5 +1,6 @@
 package domain;
 
-public class PH {
+public class PH extends Inmueble {
+
 
 }
