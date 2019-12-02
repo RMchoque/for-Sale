@@ -11,18 +11,23 @@ Una inmobiliaria necesita empezar a organizar mejor a sus empleados. Con este fi
 ventas para hacer un sistema que los ayude a lograr su objetivo.
 El sistema deberá llevar un registro de las operaciones que realizó la inmobiliaria, que pueden ser alquileres o
 ventas de un determinado inmueble. Sobre cada operación, el empleado que la concretó cobra una comisión.
+
 ● Para los alquileres, se conoce la cantidad de meses por la que se pacta el contrato de alquiler, y la
 comisión que le corresponde al agente es igual a la cantidad de meses por el valor del inmueble, dividido
 50.000.
+
 ● Para una venta, en cambio, se tiene un porcentaje sobre el valor del inmueble, siempre igual para todos
 los agentes de la inmobiliaria. El año pasado, este valor era 1%, aunque este año es de 1,5% y el año que
 viene... ¿quién sabe?
 De todos los inmuebles se conoce el tamaño en metros cuadrados, la cantidad de ambientes y la operación para
 la que se la publica (venta o alquiler).
 Por otra parte, el valor de cada inmueble depende de diversos factores:
+
 ● Si es una casa, tiene un valor particular para esa casa.
+
 ● Los PH tienen un valor de 14.000 por metro cuadrado, con un mínimo de 500.000.
-● Los departamentos se tasan a 350.000 por ambiente
+
+● Los departamentos se tasan a 350.000 por ambiente 
 Además, todas las propiedades ven su precio afectado por un plus que depende de la zona donde están
 ubicadas. Estos valores cambian seguido y es necesario poder actualizar las zonas fácilmente.
 Un cliente puede solicitar a un empleado realizar una reserva sobre una propiedad o concretar la operación
